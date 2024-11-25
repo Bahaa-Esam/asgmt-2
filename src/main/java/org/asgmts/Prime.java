@@ -2,9 +2,10 @@ package org.asgmts;
 
 class Prime extends Number {
     public void checkP() {
+        int num = getNum();
         if (prime())
-            System.out.println("It's a Prime number");
+            System.out.println(num + " is a Prime");
         else
-            System.out.println("It's Not a prime number.");
+            System.out.println(num + " isn't a Prime");
     }
 }
